@@ -21,7 +21,7 @@ except KafkaError as e:
 
 # Load the dataset
 try:
-    orders_df = pd.read_csv('olist_orders_dataset.csv')
+    orders_df = pd.read_csv('olist_customers_dataset.csv')
     logger.info(f"Dataset loaded successfully. Shape: {orders_df.shape}")
 except FileNotFoundError:
     logger.error("Dataset file not found")
