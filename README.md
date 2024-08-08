@@ -14,6 +14,18 @@ The project involves the following key steps:
 8. Version Control and CI/CD: Using Git for version control and setting up a basic CI/CD pipeline.
 
 ## Getting Started
+
+1. Clone the repository: git clone https://github.com/your-username/e-commerce-data-pipeline.git
+cd e-commerce-data-pipeline
+
+2. Set up the environment: `make setup`
+3. Start the Kafka server: `make start-kafka`
+4. Run the data producer: `make run-producer`
+5. Run the data consumer: `make run-consumer`
+6. Run the tests: `make test`
+7. Proceed with the remaining steps of the project, such as data storage, processing, analysis, and visualization.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
 1. Install the required dependencies by running `pip install -r requirements.txt`.
 2. Download the "Brazilian E-Commerce Public Dataset by Olist" from Kaggle and place the `olist_orders_dataset.csv` file in the `data/` directory.
 3. Follow the instructions in the `data_producer.py` and `data_consumer.py` files to set up and run the Kafka-based data ingestion process.
